@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "AULA F87 PRO",
+    "description": "AULA F87 Gasket Mechanical Keyboard",
+    "price": "1200000",
+    "image": "https://m.media-amazon.com/images/I/61ERdtQkM3L._AC_SX466_.jpg"
+  },
+  {
+    "id": 2,
+    "name": "AULA F75 MAX",
+    "description": "AULA F75 MAX Gasket Mechanical Keyboard",
+    "price": "1590000",
+    "image": "https://m.media-amazon.com/images/I/71UEl4RRpbL._AC_SX679_.jpg"
+  },
+  {
+    "id": 3,
+    "name": "AULA HERO 68",
+    "description": "HERO 68 HE 60% Gaming Keyboard Wired",
+    "price": "950000",
+    "image": "https://m.media-amazon.com/images/I/61P1GtAvP1L._AC_SX466_.jpg"
+  },
+  {
+    "id": 4,
+    "name": "AULA F98 PRO",
+    "description": "AULA F98 Gasket Mechanical Keyboard",
+    "price": "1750000",
+    "image": "https://m.media-amazon.com/images/I/71SdBoyhEFL._AC_SX466_.jpg"
+  }
+]

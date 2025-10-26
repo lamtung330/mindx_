@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula.Star.vn.com</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+
+  <body>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h1></h1>
+          <img
+            src="https://www.aulastar.com/uploads/allimg/20240708/1-240FQ524205G.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <h1></h1>
+
+          <img
+            src="https://www.aulastar.com/uploads/allimg/20240708/1-240FQ52444406.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <h1></h1>
+
+          <img
+            src="https://www.aulastar.com/uploads/allimg/20240708/1-240FQ52459B7.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="home.html">
+          <img class="Aula" src="./1-230921155F0X4.png" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#courses">Sản phẩm</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#register">Giỏ hàng</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Mới</a>
+            </li>
+
+            <!-- 🔍 Thanh tìm kiếm -->
+            <li class="nav-item">
+              <form
+                class="d-flex"
+                role="search"
+                onsubmit="return searchProduct()"
+              >
+                <input
+                  id="searchInput"
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Tìm sản phẩm..."
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Tìm
+                </button>
+              </form>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html">Đăng ký</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Giới thiệu -->
+    <section id="about" class="py-5">
+      <div class="container"></div>
+    </section>
+
+    <section id="courses" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Sẳn phẳm bán chạy</h2>
+
+        <div class="product-wrapper">
+          <a target="_blank" href="./product_1.html" class="single-product">
+            <img
+              src="https://m.media-amazon.com/images/I/61ERdtQkM3L._AC_SX466_.jpg"
+              class="product-img"
+              alt=""
+            />
+            <h5 class="product-title">AULA F87 PRO</h5>
+            <p class="product-text">AULA F87 Gasket Mechanical Keyboard</p>
+            <span class="txt-price">Giá sản phẩm: </span>
+            <span class="product-price">1.200.000 VNĐ</span>
+            <button class="btn-buy">Thêm vào giỏ</button>
+          </a>
+
+          <a target="_blank" href="product_2.html" class="single-product">
+            <img
+              src="https://m.media-amazon.com/images/I/71UEl4RRpbL._AC_SX679_.jpg"
+              class="product-img"
+              alt=""
+            />
+            <h5 class="product-title">AULA F75 MAX</h5>
+            <p class="product-text">AULA F75 MAX Gasket Mechanical Keyboard</p>
+            <span class="txt-price">Giá sản phẩm:</span>
+            <span class="product-price">1.590.000 VNĐ</span>
+            <button class="btn-buy">Thêm vào giỏ</button>
+          </a>
+
+          <a target="_blank" href="product_3.html" class="single-product">
+            <img
+              src="https://m.media-amazon.com/images/I/61P1GtAvP1L._AC_SX466_.jpg"
+              class="product-img"
+              alt=""
+            />
+            <h5 class="product-title">AULA HERO 68</h5>
+            <p class="product-text">HERO 68 HE 60% Gaming Keyboard Wired</p>
+            <span class="txt-price">Giá sản phẩm </span>
+            <span class="product-price"> 950.000 VNĐ</span>
+            <button class="btn-buy">Thêm vào giỏ</button>
+          </a>
+
+          <a target="_blank" href="product_4.html" class="single-product">
+            <img
+              src="https://m.media-amazon.com/images/I/71SdBoyhEFL._AC_SX466_.jpg"
+              class="product-img"
+              alt=""
+            />
+            <h5 class="product-title">AULA F98 PRO</h5>
+            <p class="product-text">AULA F98 Gasket Mechanical Keyboard</p>
+            <span class="txt-price">Giá sản phẩm </span>
+            <span class="product-price"> 1.750.000 VNĐ</span>
+            <button class="btn-buy">Thêm vào giỏ</button>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container" style="padding-bottom: 40px">
+        <iframe
+          width="100%"
+          height="500px"
+          style="border-radius: 10px"
+          src="https://www.youtube.com/embed/Sf8ogAiHX7g?si=ifq8tGwKjDsspbar"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+    <!-- Liên hệ -->
+    <section id="contact" class="bg-dark text-white py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Liên hệ chúng tôi</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <p><strong>PRODUCT CATEGORIES</strong></p>
+            <p><strong>Điện thoại:</strong></p>
+            <p><strong>Email:</strong></p>
+
+            <ul class="social">
+              <li>
+                <a href="https://www.facebook.com/tung.lam.394519"
+                  ><img
+                    width="40px"
+                    src="./facebook-png-icon-follow-us-facebook-1.png"
+                /></a>
+              </li>
+              <li>
+                <a href="https://chat.zalo.me/"
+                  ><img width="40px" src="./socical_zalo.png"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/@shtechvn"
+                  ><img width="40px" src="./youtube_PNG102351.png"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14905.767092755872!2d106.00524404999999!3d20.93476695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a509262969ad%3A0x8ff1f92f2ccef4d7!2zxJDDrG5oIGzDoG5nIHRoxrDhu6NuZw!5e0!3m2!1svi!2s!4v1751377784572!5m2!1svi!2s"
+              width="400"
+              height="250"
+              style="border-radius: 10px"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white text-center py-3">
+      <div class="container">&copy; 2025 AulaStar</div>
+    </footer>
+
+    <button class="btn-chatbot">
+      <img src="./chatbot-3d-render-icon-illustration-png.png" alt="chatbot" />
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+
+    <script>
+      async function searchProduct() {
+        const keyword = document
+          .getElementById("searchInput")
+          .value.trim()
+          .toLowerCase();
+        if (keyword === "") {
+          alert("Vui lòng nhập tên sản phẩm cần tìm!");
+          return false;
+        }
+
+        try {
+          // Gọi API tự tạo
+          const response = await fetch("./api/products.json");
+          const products = await response.json();
+
+          // Lọc sản phẩm có tên khớp từ khóa
+          const matched = products.filter((p) =>
+            p.name.toLowerCase().includes(keyword)
+          );
+
+          const container = document.querySelector(".product-wrapper");
+          container.innerHTML = ""; // xóa sản phẩm cũ
+
+          if (matched.length === 0) {
+            container.innerHTML = `<p class="text-center text-muted">Không tìm thấy sản phẩm nào phù hợp!</p>`;
+            return false;
+          }
+
+          // Hiển thị sản phẩm tìm được
+          matched.forEach((p) => {
+            container.innerHTML += `
+        <a href="#" class="single-product">
+          <img src="${p.image}" class="product-img" alt="${p.name}">
+          <h5 class="product-title">${p.name}</h5>
+          <p class="product-text">${p.description}</p>
+          <span class="txt-price">Giá sản phẩm: </span>
+          <span class="product-price">${p.price.toLocaleString()} VNĐ</span>
+          <button class="btn-buy">Thêm vào giỏ</button>
+        </a>
+      `;
+          });
+        } catch (error) {
+          console.error("Lỗi khi tải API:", error);
+        }
+
+        return false; // chặn reload trang
+      }
+    </script>
+  </body>
+</html>
